@@ -1,0 +1,59 @@
+User-agent: *
+Allow:    /files/upload/
+Disallow: /blocks/*
+Disallow: /files/*
+Disallow: /library/*
+Disallow: /modules/*
+Disallow: /services/*
+Disallow: /skins/*
+Disallow: /board,*
+Disallow: /board/vip.html
+Disallow: /board/filter.html
+Disallow: /board/add/*
+Disallow: /board/select.html
+Disallow: /users*
+Disallow: /users/*
+Disallow: /users.html
+Disallow: /board.user.html
+Disallow: /board.user*
+Disallow: /board.user/*
+Disallow: /board.notepad.html
+Disallow: /board.notepad*
+Disallow: /board.notepad/*
+Disallow: /board.pay*
+Disallow: /index.php*
+
+User-agent: Yandex
+Allow:    /files/upload/
+Disallow: /blocks/*
+Disallow: /files/*
+Disallow: /library/*
+Disallow: /modules/*
+Disallow: /services/*
+Disallow: /skins/*
+Disallow: /board,*
+Disallow: /board/vip.html
+Disallow: /board/filter.html
+Disallow: /board/add/*
+Disallow: /board/select.html
+Disallow: /users*
+Disallow: /users/*
+Disallow: /users.html
+Disallow: /board.user.html
+Disallow: /board.user*
+Disallow: /board.user/*
+Disallow: /board.notepad.html
+Disallow: /board.notepad*
+Disallow: /board.notepad/*
+Disallow: /board.pay*
+Disallow: /index.php*
+Host: dnp.dp.ua
+
+# Google Image
+User-agent: Googlebot-Image
+ 
+# Google AdSense
+User-agent: Mediapartners-Google*
+
+Sitemap: https://dnp.dp.ua/sitemap.xml
+Sitemap: https://dnp.dp.ua/sitemap.xml.gz
